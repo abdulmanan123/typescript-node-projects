@@ -56,7 +56,7 @@ const guessNumberGame = async () => {
             log(chalk.green(`Your Score is ${score}`));
         }
         else {
-            log(chalk.red(`Your Score is ${score}`));
+            log(chalk.red(`💀💀💀 Your Score is ${score}`));
         }
     }
 };

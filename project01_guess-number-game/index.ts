@@ -26,7 +26,7 @@ let welcomeMessage = async () => {
 const guessNumberGame = async () => {
     
     const randomNumber: number = Math.floor(Math.random() * 10) + 1;
-    log(`randomNumber: ${randomNumber}`);
+    //log(`randomNumber: ${randomNumber}`);
 
     const {guessNumber} = await inquirer.prompt([
         {
@@ -70,7 +70,7 @@ const guessNumberGame = async () => {
         if (score > 40) {
             log(chalk.green(`Your Score is ${score}`));
         } else {
-            log(chalk.red(`Your Score is ${score}`));
+            log(chalk.red(`💀💀💀 Your Score is ${score}`));
         }
     }
 }
